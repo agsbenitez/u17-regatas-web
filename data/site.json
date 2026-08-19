@@ -9,6 +9,13 @@
       "description": "Espacio disponible para una marca que quiera acompañar al equipo en la competencia federal."
     },
     {
+      "category": "Sponsor principal",
+      "name": "Muñoz Marchesi Motos",
+      "image": "/img/uploads/mm.jpeg",
+      "instagram": "https://www.instagram.com/munozmarchesimotos/",
+      "url": "https://mymmotos.com.ar/"
+    },
+    {
       "name": "Comercio amigo",
       "category": "Adherente",
       "image": "",
@@ -18,10 +25,15 @@
     },
     {
       "category": "Sponsor principal",
-      "name": "Muñoz Marchesi Motos",
-      "image": "/img/uploads/mm.jpeg",
-      "instagram": "https://www.instagram.com/munozmarchesimotos/",
-      "url": "https://mymmotos.com.ar/"
+      "name": "Carnes Vidoni",
+      "image": "/img/uploads/vidoni.jpeg",
+      "instagram": "https://www.instagram.com/carnesvidoni/"
+    },
+    {
+      "category": "Sponsor principal",
+      "name": "Shanega",
+      "image": "/img/uploads/shanega.jpeg",
+      "instagram": "https://www.instagram.com/shanegahelados/"
     }
   ],
   "posts": [
