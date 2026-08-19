@@ -1,0 +1,31 @@
+{
+  "sponsors": [
+    {
+      "name": "Tu marca acá",
+      "category": "Sponsor principal",
+      "image": "",
+      "url": "",
+      "instagram": "",
+      "description": "Espacio disponible para una marca que quiera acompañar al equipo en la competencia federal."
+    },
+    {
+      "name": "Comercio amigo",
+      "category": "Adherente",
+      "image": "",
+      "url": "",
+      "instagram": "",
+      "description": "Ejemplo de comercio, emprendimiento o profesional que acompaña el proyecto deportivo."
+    }
+  ],
+  "posts": [
+    {
+      "title": "Acompañá al equipo en la competencia federal",
+      "date": "2026-08-19T12:00:00-03:00",
+      "tag": "Noticia",
+      "image": "",
+      "excerpt": "Este espacio reunirá novedades, fotos, resultados y publicaciones del camino del equipo.",
+      "instagram_url": "",
+      "body": "Primera publicación de ejemplo. Se puede editar o eliminar desde el panel de administración."
+    }
+  ]
+}

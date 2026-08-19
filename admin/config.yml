@@ -1,0 +1,60 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+media_folder: "img/uploads"
+public_folder: "/img/uploads"
+
+collections:
+  - name: "contenido"
+    label: "Contenido del sitio"
+    editor:
+      preview: false
+    files:
+      - label: "Sponsors y noticias"
+        name: "site"
+        file: "data/site.json"
+        format: "json"
+        fields:
+          - label: "Sponsors / aliados"
+            name: "sponsors"
+            widget: "list"
+            summary: "{{fields.name}} · {{fields.category}}"
+            fields:
+              - { label: "Nombre de la marca", name: "name", widget: "string" }
+              - label: "Categoría"
+                name: "category"
+                widget: "select"
+                options:
+                  - "Sponsor principal"
+                  - "Auspiciante"
+                  - "Adherente"
+                  - "Colaborador"
+              - { label: "Logo o imagen", name: "image", widget: "image", required: false }
+              - { label: "Sitio web", name: "url", widget: "string", required: false }
+              - { label: "Instagram o publicación de IG", name: "instagram", widget: "string", required: false }
+              - { label: "Descripción breve", name: "description", widget: "text", required: false }
+
+          - label: "Noticias / blog"
+            name: "posts"
+            widget: "list"
+            summary: "{{fields.title}} · {{fields.date}}"
+            fields:
+              - { label: "Título", name: "title", widget: "string" }
+              - { label: "Fecha", name: "date", widget: "datetime" }
+              - label: "Tipo de publicación"
+                name: "tag"
+                widget: "select"
+                options:
+                  - "Noticia"
+                  - "Previa"
+                  - "Resultado"
+                  - "Entrenamiento"
+                  - "Sponsor"
+                  - "Galería"
+              - { label: "Imagen principal", name: "image", widget: "image", required: false }
+              - { label: "Resumen", name: "excerpt", widget: "text" }
+              - { label: "Link a publicación de Instagram", name: "instagram_url", widget: "string", required: false }
+              - { label: "Texto ampliado", name: "body", widget: "text", required: false }

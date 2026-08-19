@@ -1,0 +1,964 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Equipo · Regatas Corrientes | Sponsors y Adherentes</title>
+  <meta name="description" content="Landing de presentación del equipo, jugadores y propuesta para sponsors, auspiciantes y adherentes.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+  <style>
+    /* === Decap CMS additions: no modifica styles.css === */
+    .cms-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px;
+    }
+
+    .cms-card {
+      overflow: hidden;
+      border-radius: var(--radius-xl, 30px);
+      background: #fff;
+      color: var(--ink, #121722);
+      border: 1px solid rgba(6,24,51,.08);
+      box-shadow: 0 14px 45px rgba(6,24,51,.08);
+    }
+
+    .section.dark .cms-card {
+      background: rgba(255,255,255,.08);
+      color: #fff;
+      border-color: rgba(255,255,255,.14);
+      box-shadow: 0 20px 55px rgba(0,0,0,.16);
+    }
+
+    .cms-media {
+      height: 210px;
+      display: grid;
+      place-items: center;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 30% 22%, rgba(55,189,232,.26), transparent 32%),
+        linear-gradient(135deg, var(--blue-950, #061833), var(--blue-700, #0057A8));
+      color: rgba(255,255,255,.78);
+      font-weight: 950;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+
+    .cms-media img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .cms-body {
+      padding: 24px;
+    }
+
+    .cms-label {
+      display: inline-flex;
+      margin-bottom: 14px;
+      padding: 7px 11px;
+      border-radius: 999px;
+      background: var(--cyan-soft, #DDF7FF);
+      color: var(--blue-700, #0057A8);
+      font-size: 11px;
+      font-weight: 950;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    .section.dark .cms-label {
+      background: rgba(55,189,232,.16);
+      color: var(--cyan, #37BDE8);
+    }
+
+    .cms-body h3 {
+      margin: 0 0 12px;
+      color: var(--blue-950, #061833);
+      font-size: 28px;
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: -.04em;
+    }
+
+    .section.dark .cms-body h3 {
+      color: #fff;
+    }
+
+    .cms-body p {
+      margin: 0 0 18px;
+      color: var(--gray-600, #647084);
+      line-height: 1.55;
+    }
+
+    .section.dark .cms-body p {
+      color: rgba(255,255,255,.72);
+    }
+
+    .cms-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .cms-link {
+      display: inline-flex;
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: var(--blue-950, #061833);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .section.dark .cms-link {
+      background: var(--cyan, #37BDE8);
+      color: var(--blue-950, #061833);
+    }
+
+    .cms-empty {
+      grid-column: 1 / -1;
+      padding: 28px;
+      border-radius: var(--radius-xl, 30px);
+      background: #fff;
+      color: var(--gray-600, #647084);
+      border: 1px dashed rgba(6,24,51,.18);
+    }
+
+    .section.dark .cms-empty {
+      background: rgba(255,255,255,.08);
+      color: rgba(255,255,255,.72);
+      border-color: rgba(255,255,255,.22);
+    }
+
+    @media (max-width: 1040px) {
+      .cms-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Navegación principal">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>U17 Regatas Corrientes</span>
+      </a>
+
+      <div class="nav-links">
+        <a href="#equipo">Equipo</a>
+        <a href="#jugadores">Jugadores</a>
+        <a href="#staff">Staff</a>
+        <a href="#sponsors">Sponsors</a>
+        <a href="#aliados">Aliados</a>
+        <a href="#noticias">Noticias</a>
+        <a href="#galeria">Galería</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+
+      <a class="cta" href="#contacto">Ser sponsor</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <span class="kicker">Regatas Corrientes · Equipo deportivo</span>
+          <h1>Un equipo para <span>acompañar</span></h1>
+          <p>
+            Presentamos una propuesta deportiva con identidad, compromiso y proyección.
+            Detrás de cada partido hay esfuerzo, compromiso y una comunidad que acompaña. Esta web invita a ser parte de ese camino..
+          </p>
+          <div class="hero-actions">
+            <a class="cta" href="#sponsors">Quiero acompañar</a>
+            <a class="cta secondary" href="#jugadores">Ver plantel</a>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="feature-card">
+            <img class="negative" src="img/Equipo.jpeg" alt="" aria-hidden="true">
+            <img src="img/Equipo.jpeg" alt="Imagen destacada de jugador">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section class="section" id="jugadores">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Plantel</span>
+            <h2>Jugadores</h2>
+          </div>
+          <p>
+            El plantel U17 de club de regatas corrientes está formado por estos 14 jugadores.
+          </p>
+        </div>
+
+        <div class="filters" aria-label="Filtros por posición">
+          <button class="filter-btn active" data-filter="Todos">Todos</button>
+          <button class="filter-btn" data-filter="Base">Base</button>
+          <button class="filter-btn" data-filter="Escolta">Escolta</button>
+          <button class="filter-btn" data-filter="Alero">Alero</button>
+          <button class="filter-btn" data-filter="Ala-pívot">Ala-pívot</button>
+          <button class="filter-btn" data-filter="Pívot">Pívot</button>
+        </div>
+
+        <div class="players-grid">
+          
+      <article class="player-card" 
+      data-profile-type="Jugador" 
+      data-profile-name="Perez Acosta Simón" 
+      data-profile-number="2" 
+      data-profile-height="1,77 m" 
+      data-profile-weight="61 kg" 
+      data-profile-photo="img/Simon.jpeg" 
+      data-profile-description="Simón. Agil, veloz, gran dribling.">
+        <div class="player-visual">
+          <img class="player-positive" src="img/Simon.jpeg" alt="Foto de Perez Acosta Simón">
+          <img class="player-negative" src="img/Simon.jpeg" alt="" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">2</div>
+          <h3>Perez Acosta Simón</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,77 m</dd></div>
+            <div><dt>Peso</dt><dd>61 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-position="Escolta" 
+        data-profile-type="Jugador" 
+        data-profile-name="Vallejos Nicolás" 
+        data-profile-role="Escolta" 
+        data-profile-number="3" 
+        data-profile-height="1,80 m" 
+        data-profile-weight="67 kg" 
+        data-profile-photo="img/VallejosN.jpeg" 
+        data-profile-description="Sagaz, de 3 no perdona!!">
+        <div class="player-visual">
+          <img class="player-positive" src="img/VallejosN.jpeg" alt="Foto de Vallejos Nicolás">
+          <img class="player-negative" src="img/VallejosN.jpeg" alt="" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">3</div>
+          <h3>Vallejos Nicolás</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,80 m</dd></div>
+            <div><dt>Peso</dt><dd>67 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-position="Alero" 
+        data-profile-type="Jugador" 
+        data-profile-name="Avalos Patricio" 
+        data-profile-role="Alero" 
+        data-profile-number="6" 
+        data-profile-height="1,87 m" 
+        data-profile-weight="73 kg" 
+        data-profile-photo="img/AvalosP.jpeg" 
+        data-profile-description="Punzante, de gran alcance y visión de juego.">
+        <div class="player-visual">
+          <img class="player-positive" src="img/AvalosP.jpeg" alt="Foto de Avalos Patrico">
+          <img class="player-negative" src="img/AvalosP.jpeg" alt="" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">6</div>
+          <h3>Avalos Patricio</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,87 m</dd></div>
+            <div><dt>Peso</dt><dd>73 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-position="Ala-pívot" 
+        data-profile-type="Jugador" 
+        data-profile-name="Jugador 04" 
+        data-profile-role="Ala-pívot" 
+        data-profile-number="04" 
+        data-profile-height="1,94 m" 
+        data-profile-weight="80 kg" 
+        data-profile-photo="img/MaidanaL.jpeg" 
+        data-profile-description="Tiempista, gran manejo del ritmo. Con espacio seguro cobra de 3.">
+        <div class="player-visual">
+          <img class="player-positive" src="img/MaidanaL.jpeg" alt="Foto de Maidana Laureano">
+          <img class="player-negative" src="img/MaidanaL.jpeg" alt="" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">7</div>
+          <h3>Maidana Laureano</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,75 m</dd></div>
+            <div><dt>Peso</dt><dd>85 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-position="Base" 
+        data-profile-type="Jugador" 
+        data-profile-name="Chaparro Lautaro" 
+        data-profile-role="Base" 
+        data-profile-number="10" 
+        data-profile-height="1,79 m" 
+        data-profile-weight="68 kg" 
+        data-profile-photo="img/ChaparroL.jpeg" 
+        data-profile-description="Visión. El aro nunca está lejos">
+        <div class="player-visual">
+          <img class="player-positive" src="img/ChaparroL.jpeg" alt="Foto de Chaparro Lautaro">
+          <img class="player-negative" src="img/ChaparroL.jpeg" alt="" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">10</div>
+          <h3>Chaparro Lautaro</h3>
+          <p>Base</p>
+          <dl>
+            <div><dt>Altura</dt><dd>1,79 m</dd></div>
+            <div><dt>Peso</dt><dd>68 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-position="Base" 
+        data-profile-type="Jugador" 
+        data-profile-name="Fernandez Joaquín" 
+        data-profile-role="Base" 
+        data-profile-number="06" 
+        data-profile-height="1,84 m" 
+        data-profile-weight="84 kg" 
+        data-profile-photo="img/FernandezJ.jpeg" 
+        data-profile-description="Ligero como el viento.">
+        <div class="player-visual">
+          <img class="player-positive" src="img/FernandezJ.jpeg" alt="Foto de Fernandez Joaquín">
+          <img class="player-negative" src="img/FernandezJ.jpeg" alt="" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">11</div>
+          <h3>Fernandez Joaquín</h3>
+          <p>Base</p>
+          <dl>
+            <div><dt>Altura</dt><dd>1,80 m</dd></div>
+            <div><dt>Peso</dt><dd>68 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-profile-type="Jugador" 
+        data-profile-name="Benitez Feliciano" 
+        data-profile-number="14" 
+        data-profile-height="1,78 m" 
+        data-profile-weight="73 kg" 
+        data-profile-photo="img/BenitezF.jpeg" 
+        data-profile-description="Aguerrido, no pasarán. Las chicas mueren por él">
+        <div class="player-visual">
+          <img class="player-positive" src="img/BenitezF.jpeg" alt="Foto de Benitez Feliciano">
+          <img class="player-negative" src="img/BenitezF.jpeg" alt="" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">14</div>
+          <h3>Benitez Feliciano</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,78 m</dd></div>
+            <div><dt>Peso</dt><dd>73 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-profile-type="Jugador" 
+        data-profile-name="Pinzetta Santiago" 
+        data-profile-number="15" 
+        data-profile-height="1,94 m" 
+        data-profile-weight="85 kg" 
+        data-profile-photo="img/PinzettaS.jpeg" 
+        data-profile-description="La pintura su lugar!!">
+        <div class="player-visual">
+          <img class="player-positive" src="img/PinzettaS.jpeg" alt="Foto de Pinsetta Santiago">
+          <img class="player-negative" src="img/PinzettaS.jpeg" alt="" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">15</div>
+          <h3>Pinzetta Santiago</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,94 m</dd></div>
+            <div><dt>Peso</dt><dd>85 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-profile-type="Jugador" 
+        data-profile-name="Morales Lautaro" 
+        data-profile-number="17" 
+        data-profile-height="1,95 m" 
+        data-profile-weight="92 kg" 
+        data-profile-photo="img/MoralesL.jpeg"
+        data-profile-description="El más alto del equipo, Campeón Liga próximo.">
+        <div class="player-visual">
+          <img class="player-positive" src="img/MoralesL.jpeg" alt="Foto de Morales Lautaro">
+          <img class="player-negative" src="img/MoralesL.jpeg" alt="Foto de Morales Lautaro" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">17</div>
+          <h3>Morales Lautaro</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,95 m</dd></div>
+            <div><dt>Peso</dt><dd>92 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-profile-type="Jugador" 
+        data-profile-name="Rodriguez Bautista" 
+        data-profile-number="18" 
+        data-profile-height="1,77 m" 
+        data-profile-weight="67 kg" 
+        data-profile-photo="img/RodriguezB.jpeg" 
+        data-profile-description="Insicivo, tenáz. Siempre podes contar con él">
+        <div class="player-visual">
+          <img class="player-positive" src="img/RodriguezB.jpeg" alt="Foto de Rodriguez Bautista">
+          <img class="player-negative" src="img/RodriguezB.jpeg" alt="Foto de Rodriguez Bautista" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">18</div>
+          <h3>Rodriguez Bautista</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,77 m</dd></div>
+            <div><dt>Peso</dt><dd>67 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+      <article class="player-card" 
+        data-profile-type="Jugador" 
+        data-profile-name="Almozni Joaquin" 
+        data-profile-number="21" 
+        data-profile-height="1,91 m" 
+        data-profile-weight="82 kg" 
+        data-profile-photo="img/AlmozniJ.jpeg" 
+        data-profile-description="Conductor del equipo, DT dentro del campo.">
+        <div class="player-visual">
+          <img class="player-positive" src="img/AlmozniJ.jpeg" alt="Foto de Almozni Joaquin">
+          <img class="player-negative" src="img/AlmozniJ.jpeg" alt="Foto de Almozni Joaquin" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">21</div>
+          <h3>Almozni Joaquin</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,91 m</dd></div>
+            <div><dt>Peso</dt><dd>82 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+      
+      <article class="player-card" 
+        data-profile-type="Jugador" 
+        data-profile-name="Acosta Maximiliano" 
+        data-profile-number="23" 
+        data-profile-height="1,85 m" 
+        data-profile-weight="65 kg" 
+        data-profile-photo="img/AcostaM.jpeg" 
+        data-profile-description="Veloz. Al servicio del rebote">
+        <div class="player-visual">
+          <img class="player-positive" src="img/AcostaM.jpeg" alt="Foto de Acosta Maximiliano">
+          <img class="player-negative" src="img/AcostaM.jpeg" alt="Foto de Acosta Maximiliano" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">23</div>
+          <h3>Acosta Maximiliano</h3>
+          <p>Alero</p>
+          <dl>
+            <div><dt>Altura</dt><dd>1,85 m</dd></div>
+            <div><dt>Peso</dt><dd>65 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+      
+      
+      <article class="player-card" 
+        data-profile-type="Jugador" 
+        data-profile-name="Torres Ian" 
+        data-profile-number="28" 
+        data-profile-height="1,93 m" 
+        data-profile-weight="86 kg" 
+        data-profile-photo="img/TorresI.jpeg" 
+        data-profile-description="De selección. El punto seguro del equipo.">
+        <div class="player-visual">
+          <img class="player-positive" src="img/TorresI.jpeg" alt="Foto de Torres Ian">
+          <img class="player-negative" src="img/TorresI.jpeg" alt="Foto de Torres Ian" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">28</div>
+          <h3>Torres Ian</h3>
+          <dl>
+            <div><dt>Altura</dt><dd>1,93 m</dd></div>
+            <div><dt>Peso</dt><dd>86 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+      
+    
+      <article class="player-card" 
+        data-profile-type="Jugador" 
+        data-profile-name="Vidoni Benjamín" 
+        data-profile-number="88" 
+        data-profile-height="1,80 m" 
+        data-profile-weight="85 kg" 
+        data-profile-photo="img/VidoniB.jpeg" 
+        data-profile-description="Potencia, sacrificio y entrega.">
+        <div class="player-visual">
+          <img class="player-positive" src="img/VidoniB.jpeg" alt="Foto de Vidoni Benjamín">
+          <img class="player-negative" src="img/VidoniB.jpeg" alt="Foto de Vidoni Benjamín" aria-hidden="true">
+        </div>
+        <div class="player-info">
+          <div class="player-number">88</div>
+          <h3>Vidoni Benjamín</h3>
+          <p>Ala-pívot</p>
+          <dl>
+            <div><dt>Altura</dt><dd>1,80 m</dd></div>
+            <div><dt>Peso</dt><dd>85 kg</dd></div>
+          </dl>
+        </div>
+      </article>
+    
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="staff">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Equipo de trabajo</span>
+            <h2>Staff técnico</h2>
+          </div>
+          <p>
+            Además del plantel, la propuesta presenta al equipo humano de absoluta grán jerarquía que acompaña el desarrollo deportivo,
+            la organización diaria y la preparación física de los jugadores.
+          </p>
+        </div>
+
+        <div class="staff-grid">
+          
+          <article class="staff-card"
+            data-profile-type="Staff"
+            data-profile-name="Silveira Alejandro"
+            data-profile-role="Técnico"
+            data-profile-number="DT"
+            data-profile-height=""
+            data-profile-weight=""
+            data-profile-photo="img/SilveiraA.jpg"
+            data-profile-description="Responsable de la conducción deportiva, planificación táctica y dirección del equipo. Parte del staff técnico de Selecciones Menores CAB.">
+            <div class="staff-photo"><strong>DT</strong></div>
+            <div class="staff-info">
+              <span class="staff-role">Técnico</span>
+              <h3>Silveira Alejandro</h3>
+              <p>Responsable de la conducción deportiva, planificación táctica y dirección del equipo.</p>
+            </div>
+          </article>
+
+          
+          <article class="staff-card"
+            data-profile-type="Staff"
+            data-profile-name="Ramirez Pita Silvio"
+            data-profile-role="Ayudante técnico"
+            data-profile-number="AT"
+            data-profile-height=""
+            data-profile-weight=""
+            data-profile-photo="img/RamirezS.jpg"
+            data-profile-description="Acompaña el trabajo táctico, la preparación de entrenamientos y el seguimiento del plantel.">
+            <div class="staff-photo"><strong>AT</strong></div>
+            <div class="staff-info">
+              <span class="staff-role">Ayudante técnico</span>
+              <h3>Ramirez Pita Silvio</h3>
+              <p>Acompaña el trabajo táctico, la preparación de entrenamientos y el seguimiento del plantel.</p>
+            </div>
+          </article>
+
+          
+          <article class="staff-card"
+            data-profile-type="Staff"
+            data-profile-name="Roldan Germán"
+            data-profile-role="Manager"
+            data-profile-number="MG"
+            data-profile-height=""
+            data-profile-weight=""
+            data-profile-photo="img/RoldanG.jpeg"
+            data-profile-description="Coordina aspectos organizativos, vínculos institucionales y gestión general del equipo.">
+            <div class="staff-photo"><strong>MG</strong></div>
+            <div class="staff-info">
+              <span class="staff-role">Manager</span>
+              <h3>Roldan Germán</h3>
+              <p>Coordina aspectos organizativos, vínculos institucionales y gestión general del equipo.</p>
+            </div>
+          </article>
+
+          
+          <article class="staff-card"
+            data-profile-type="Staff"
+            data-profile-name="Acevedo Stefanía"
+            data-profile-role="Preparador físico"
+            data-profile-number="PF"
+            data-profile-height=""
+            data-profile-weight=""
+            data-profile-photo="img/stefie2.jpeg"
+            data-profile-description="Planifica y acompaña el acondicionamiento físico, la prevención y el rendimiento deportivo.">
+            <div class="staff-photo"><strong>PF</strong></div>
+            <div class="staff-info">
+              <span class="staff-role">Preparador físico</span>
+              <h3>Acevedo Stefanía</h3>
+              <p>Planifica y acompaña el acondicionamiento físico, la prevención y el rendimiento deportivo.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark sponsor-section" id="sponsors">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Sponsors y adherentes</span>
+            <h2>Formas de acompañar</h2>
+          </div>
+          <p>
+            La propuesta se puede adaptar según el tipo de apoyo. La idea es ofrecer visibilidad, asociación con valores deportivos
+            y presencia en piezas digitales del equipo.
+          </p>
+        </div>
+
+        <div class="sponsor-grid">
+          
+    <article class="sponsor-card">
+      <span>Máxima presencia</span>
+      <h3>Sponsor principal</h3>
+      <p>Visibilidad destacada en la portada, piezas digitales, menciones y materiales de presentación.</p>
+    </article>
+    
+
+    <article class="sponsor-card">
+      <span>Presencia institucional</span>
+      <h3>Auspiciante</h3>
+      <p>Participación en sección de marcas, publicaciones, banners digitales y comunicaciones del equipo.</p>
+    </article>
+    
+
+    <article class="sponsor-card">
+      <span>Apoyo comunitario</span>
+      <h3>Adherente</h3>
+      <p>Una opción accesible para comercios, profesionales y personas que desean acompañar el proyecto.</p>
+    </article>
+    
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="beneficios">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Valor para marcas</span>
+            <h2>Por qué sumarse</h2>
+          </div>
+          <p>
+            Su aporte, ayudará a este equipo a participar del torneo más importante del país en esta categoría.
+            Será parte del sueño de lograr los más grandes objetivos deportivos y de formación de estos jugadores.
+          </p>
+        </div>
+
+        <div class="benefits">
+          <article class="benefit-list">
+            <h3>Para sponsors</h3>
+            <ul>
+              <li>Presencia destacada en la web y piezas de comunicación.</li>
+              <li>Asociación con un proyecto deportivo reconocible y local.</li>
+              <li>Material visual para compartir en redes y campañas.</li>
+              <li>Posibilidad de menciones, banners digitales o activaciones.</li>
+            </ul>
+          </article>
+
+          <article class="benefit-list">
+            <h3>Para el equipo</h3>
+            <ul>
+              <li>La tranquilidad de saber que están respaldados por marcas comprometidas.</li>
+              <li>Mayor enfoque en el desarrollo del equipo.</li>
+              <li>Visibilidad del plantel y de sus integrantes.</li>
+              <li>Base para futuras campañas, dossier PDF o redes sociales.</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="aliados">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Aliados del equipo</span>
+            <h2>Sponsors y acompañantes</h2>
+          </div>
+          <p>
+            En esta sección se mostrarán las marcas, comercios y personas que acompañan al equipo.
+            El contenido se administra desde Decap CMS.
+          </p>
+        </div>
+
+        <div class="cms-grid" id="cmsSponsors">
+          <div class="cms-empty">Cargando sponsors...</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="noticias">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Blog del equipo</span>
+            <h2>Noticias y novedades</h2>
+          </div>
+          <p>
+            Un espacio para seguir el camino del equipo en la competencia federal:
+            previas, resultados, entrenamientos, viajes, sponsors y publicaciones de Instagram.
+          </p>
+        </div>
+
+        <div class="cms-grid" id="cmsPosts">
+          <div class="cms-empty">Cargando noticias...</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="galeria">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">Movimiento</span>
+            <h2>Galería del equipo</h2>
+          </div>
+          <p>
+            Proximamente fotos reales de entrenamientos, partidos, presentación del plantel o actividades con sponsors.
+          </p>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item"><b>Entrenamientos</b></div>
+          <div class="gallery-item"><b>Partidos</b></div>
+          <div class="gallery-item"><b>Plantel</b></div>
+          <div class="gallery-item"><b>Comunidad</b></div>
+          <div class="gallery-item"><b>Sponsors</b></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contacto">
+      <div class="container">
+        <div class="contact">
+          <div class="contact-copy">
+            <span class="section-label">Contacto comercial</span>
+            <h2>Sumate al equipo</h2>
+            <p>
+              Este bloque está pensado para que un sponsor, auspiciante o adherente pueda contactarse rápido.
+              Luego podemos conectar el botón a WhatsApp, email o formulario real.
+            </p>
+
+            <div class="contact-actions">
+              <a class="cta" href="https://wa.me/5493794676824" target="_blank" rel="noreferrer">Hablar por WhatsApp</a>
+              <a class="cta secondary" href="mailto:agsbenitez@gmail.com">Enviar email</a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contactoForm">
+            <div class="field">
+              <label for="nombre">Nombre / Empresa</label>
+              <input id="nombre" name="nombre" placeholder="Ej.: Empresa del Litoral">
+            </div>
+            <div class="field">
+              <label for="telefono">Teléfono o email</label>
+              <input id="telefono" name="telefono" placeholder="Ej.: +54 9 ...">
+            </div>
+            <div class="field">
+              <label for="tipo">Tipo de interés</label>
+              <select id="tipo" name="tipo">
+                <option>Sponsor principal</option>
+                <option>Auspiciante</option>
+                <option>Adherente</option>
+                <option>Quiero recibir más información</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="mensaje">Mensaje</label>
+              <textarea id="mensaje" name="mensaje" placeholder="Contanos cómo te gustaría acompañar al equipo."></textarea>
+            </div>
+            <button class="cta" type="submit">Enviar consulta</button>
+            <p class="form-note">
+              Al enviar, se abrirá tu cliente de correo para enviar los datos al equipo.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <div class="profile-modal" id="profileModal" aria-hidden="true">
+    <div class="profile-dialog" role="dialog" aria-modal="true" aria-labelledby="profileName">
+      <button class="profile-close" type="button" aria-label="Cerrar ficha ampliada">×</button>
+      <div class="profile-visual" id="profileVisual">
+        <img class="profile-negative-preview" id="profileNegative" src="" alt="" aria-hidden="true">
+        <img id="profilePhoto" src="" alt="">
+        <div class="profile-badge" id="profileBadge"></div>
+      </div>
+      <div class="profile-content">
+        <span class="profile-type" id="profileType"></span>
+        <h3 id="profileName"></h3>
+        <div class="profile-role" id="profileRole"></div>
+        <div class="profile-stats" id="profileStats"></div>
+        <p class="profile-description" id="profileDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span>U17 Regatas Corrientes · Landing para sponsors y adherentes</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+
+  <script>
+    /* === Decap CMS frontend renderer: no modifica script.js === */
+    (function () {
+      const sponsorsTarget = document.getElementById("cmsSponsors");
+      const postsTarget = document.getElementById("cmsPosts");
+
+      function text(value, fallback = "") {
+        return value === undefined || value === null || value === "" ? fallback : String(value);
+      }
+
+      function escapeHtml(value) {
+        return text(value)
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;")
+          .replaceAll("'", "&#039;");
+      }
+
+      function media(src, alt, fallbackText) {
+        if (!src) return `<div>${escapeHtml(fallbackText)}</div>`;
+        return `<img src="${escapeHtml(src)}" alt="${escapeHtml(alt)}">`;
+      }
+
+      function formatDate(value) {
+        if (!value) return "";
+        const date = new Date(value);
+        if (Number.isNaN(date.getTime())) return value;
+        return date.toLocaleDateString("es-AR", {
+          day: "2-digit",
+          month: "short",
+          year: "numeric"
+        });
+      }
+
+      async function loadDecapData() {
+        if (!sponsorsTarget && !postsTarget) return;
+
+        try {
+          const response = await fetch("/data/site.json", { cache: "no-store" });
+          if (!response.ok) throw new Error("No se pudo leer /data/site.json");
+          const data = await response.json();
+
+          const sponsors = Array.isArray(data.sponsors) ? data.sponsors : [];
+          if (sponsorsTarget) {
+            sponsorsTarget.innerHTML = sponsors.length
+              ? sponsors.map(item => `
+                <article class="cms-card">
+                  <div class="cms-media">
+                    ${media(item.image, item.name, "Tu marca")}
+                  </div>
+                  <div class="cms-body">
+                    <span class="cms-label">${escapeHtml(item.category || "Sponsor")}</span>
+                    <h3>${escapeHtml(item.name || "Sponsor")}</h3>
+                    <p>${escapeHtml(item.description || "Marca que acompaña el camino del equipo.")}</p>
+                    <div class="cms-links">
+                      ${item.url ? `<a class="cms-link" href="${escapeHtml(item.url)}" target="_blank" rel="noreferrer">Sitio</a>` : ""}
+                      ${item.instagram ? `<a class="cms-link" href="${escapeHtml(item.instagram)}" target="_blank" rel="noreferrer">Instagram</a>` : ""}
+                    </div>
+                  </div>
+                </article>
+              `).join("")
+              : `<div class="cms-empty">Todavía no hay sponsors cargados. Entrá a /admin para agregar el primero.</div>`;
+          }
+
+          const posts = Array.isArray(data.posts) ? data.posts : [];
+          const sortedPosts = posts.slice().sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
+
+          if (postsTarget) {
+            postsTarget.innerHTML = sortedPosts.length
+              ? sortedPosts.map(post => `
+                <article class="cms-card">
+                  <div class="cms-media">
+                    ${media(post.image, post.title, "Noticia")}
+                  </div>
+                  <div class="cms-body">
+                    <span class="cms-label">${escapeHtml(post.tag || "Noticia")} · ${escapeHtml(formatDate(post.date))}</span>
+                    <h3>${escapeHtml(post.title || "Nueva noticia")}</h3>
+                    <p>${escapeHtml(post.excerpt || post.body || "")}</p>
+                    <div class="cms-links">
+                      ${post.instagram_url ? `<a class="cms-link" href="${escapeHtml(post.instagram_url)}" target="_blank" rel="noreferrer">Ver en Instagram</a>` : ""}
+                    </div>
+                  </div>
+                </article>
+              `).join("")
+              : `<div class="cms-empty">Todavía no hay noticias cargadas. Entrá a /admin para publicar la primera.</div>`;
+          }
+        } catch (error) {
+          console.error(error);
+          if (sponsorsTarget) sponsorsTarget.innerHTML = `<div class="cms-empty">No se pudo cargar /data/site.json.</div>`;
+          if (postsTarget) postsTarget.innerHTML = `<div class="cms-empty">No se pudo cargar /data/site.json.</div>`;
+        }
+      }
+
+      loadDecapData();
+
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user && window.location.hash.includes("invite_token")) {
+            window.netlifyIdentity.open("signup");
+          }
+        });
+
+        window.netlifyIdentity.on("login", () => {
+          if (window.location.pathname !== "/admin/") {
+            window.location.href = "/admin/";
+          }
+        });
+      }
+    })();
+  </script>
+
+</body>
+</html>
