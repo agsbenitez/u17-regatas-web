@@ -15,6 +15,13 @@
       "url": "",
       "instagram": "",
       "description": "Ejemplo de comercio, emprendimiento o profesional que acompaña el proyecto deportivo."
+    },
+    {
+      "category": "Sponsor principal",
+      "name": "Muñoz Marchesi Motos",
+      "image": "/img/uploads/mm.jpeg",
+      "instagram": "https://www.instagram.com/munozmarchesimotos/",
+      "url": "https://mymmotos.com.ar/"
     }
   ],
   "posts": [
