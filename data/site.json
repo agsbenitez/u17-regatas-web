@@ -16,14 +16,6 @@
       "url": "https://mymmotos.com.ar/"
     },
     {
-      "name": "Comercio amigo",
-      "category": "Adherente",
-      "image": "",
-      "url": "",
-      "instagram": "",
-      "description": "Ejemplo de comercio, emprendimiento o profesional que acompaña el proyecto deportivo."
-    },
-    {
       "category": "Sponsor principal",
       "name": "Carnes Vidoni",
       "image": "/img/uploads/vidoni.jpeg",
@@ -34,6 +26,18 @@
       "name": "Shanega",
       "image": "/img/uploads/shanega.jpeg",
       "instagram": "https://www.instagram.com/shanegahelados/"
+    },
+    {
+      "category": "Sponsor principal",
+      "name": "Monzón",
+      "image": "/img/uploads/monzon.jpeg",
+      "instagram": "https://www.instagram.com/estudiojco_monzonyasociados/"
+    },
+    {
+      "name": "Mauri",
+      "category": "Sponsor principal",
+      "image": "/img/uploads/mauri.jpeg",
+      "instagram": "https://www.instagram.com/mauri_y_el_arranke_/"
     }
   ],
   "posts": [
